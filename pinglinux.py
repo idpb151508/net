@@ -5,7 +5,7 @@ import requests
 ip = "192.168.1.6"
 
 def notifyNetwork(message):
-    token = "bvtX6Va3vJ5qs7lf79o0I6Yn81c1il9SPw7Il5MlsSr"
+    token = ""
     uri = "https://notify-api.line.me/api/notify"
     header = {"Authorization": "Bearer "+token}
     msg = {"message": message}
